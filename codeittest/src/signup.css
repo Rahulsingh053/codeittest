@@ -1,0 +1,10 @@
+.formrp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.formrp input{
+    width: 250px;
+    height: 25px;
+
+}
