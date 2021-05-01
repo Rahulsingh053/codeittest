@@ -45,7 +45,7 @@ export default function Signup({setappState}) {
   return (
     <>
       {sucsess && (
-        <div>
+        <div class="mainpage">
           <h2>Registration sucsessfull</h2>
           <Button
             onClick={() => setappState("Signin")}

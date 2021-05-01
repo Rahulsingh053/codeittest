@@ -35,7 +35,7 @@ export default function Signin({ setappState }) {
   return (
     <>
       {sucsess && (
-        <div>
+        <div class="mainpage">
           <h2>Welcome</h2>
           <div>Four Name = {user.firstName}</div>
           <div>Last Name = {user.lastName}</div>

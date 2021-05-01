@@ -9,7 +9,10 @@ function App() {
   return (
     <div>
       {!appState && (
-        <div>
+        <div class="mainpage">
+          <h1>
+            Welcome to my web page
+          </h1>
           <Button
             onClick={() => setappState("Signup")}
             variant="contained"
