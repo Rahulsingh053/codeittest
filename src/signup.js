@@ -104,6 +104,7 @@ export default function Signup({setappState}) {
                   <TextField
                     error={errors.password && touched.password}
                     name="password"
+                    type="password"
                     id="outlined-error-helper-text"
                     label="Password"
                     helperText={errors.password}
